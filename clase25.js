@@ -5,4 +5,9 @@
 /*obtener el texto que tiene ese elemento
  para eso usamos innerText
 */
-document.getElementById("titulo").innerText
+//document.getElementById("titulo").innerText
+/*para mostrar en la consola usamos console.log(lo que quermos mostrar) */
+const texto=document.getElementById("titulo").innerText
+document.getElementById("titulo").innerText="laptop"
+console.log(texto)
+
